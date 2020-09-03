@@ -58,7 +58,7 @@ python mmpdb mmpCompoundGenerator  --tsmiles "O=S(=O)(c3ccc(n1nc(cc1c2ccc(cc2)C)
 |--tmin-pairs|consider design moves that have at-least tmin-pairs examples. This is in other words the freqency of a design move. For instacne if we set tmin-pairs to 5: it say that consider all design moves that are derived from at-least five MMP pairs.| 
 
 
-## Outpt Explanation
+## Output Columns Explanation
 |column|meaning |
 |---------|--------|
 |original_smi|smiles of a query molecule|
