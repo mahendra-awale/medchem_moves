@@ -57,18 +57,16 @@ python mmpdb mmpCompoundGenerator  --tsmiles "O=S(=O)(c3ccc(n1nc(cc1c2ccc(cc2)C)
 |--toutput|name of output text file|
 |--tmin-pairs|consider design moves that have at-least tmin-pairs examples. This is in other words the freqency of a design move. For instacne if we set tmin-pairs to 5: it say that consider all design moves that are derived from at-least five MMP pairs.| 
 
-original_smi	transformed_smi	constant_smi	original_frag	new_frag	envsmi	rule_freq	ex_lhs_cpd_smi	ex_rhs_cpd_smi	ex_lhs_cpd_id	ex_rhs_cpd_id	heavies_diff
 
 ## Outpt Explnation
 |column|meaning |
 |---------|--------|
-|original_smi|smiles of query molecule|
-|transformed_smi|new design molecule|
+|original_smi|smiles of a query molecule|
+|transformed_smi|a new design molecule|
 |constant_smi|smiles of constant part i.e. part which did not change|
 |original_frag|fragment in a query to replace|
 |new_frag|new suggested fragment|
-|envsmi|chemical environment of replacement|
+|envsmi|chemical environment of replacementi (design move)|
 |rule_freq|frequency of design move (transformation)|
 |ex_lhs_cpd_id|an example of MMP (left hand compound id) from ChEMBL|
 |ex_rhs_cpd_id|an example of MMP (right hand compound id) from ChEMBL|
-
