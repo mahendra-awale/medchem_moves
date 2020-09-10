@@ -10,7 +10,7 @@ The library is adpated from original [mmpdb code](https://github.com/rdkit/mmpdb
 
 ## Dataset
 
-  - please download the design moves (transformation) dataset from [here](www.google.com). We provide the design moves from ChEMBL database at radius 3.
+  - please download the design moves (transformation) dataset from [here](https://figshare.com/articles/dataset/chemblDB3_sqlitdb/12912080). We provide the design moves from ChEMBL database at radius 3.
 
 ## How to run programm
 ```sh
